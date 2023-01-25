@@ -1,0 +1,29 @@
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+i.icon-AdminGeolocationParent{
+    display: inline-block;
+    text-align: center !important;
+}
+#subtab-AdminGeoLocationStatistics i,
+#subtab-AdminGeoLocationSettings i,
+#subtab-AdminGeoLocationRules i,
+#subtab-AdminGeoLocationMessages i,
+#subtab-AdminGeoLocationHelp i{
+    height: 16px;
+    font-family: Fontawesome;
+    font-size: 0;
+}
+#subtab-AdminGeoLocationStatistics i:before,
+#subtab-AdminGeoLocationSettings i:before,
+#subtab-AdminGeoLocationRules i:before,
+#subtab-AdminGeoLocationMessages i:before,
+#subtab-AdminGeoLocationHelp i:before{
+    font-size: 16px;
+    line-height: 1;
+}
+i.icon-AdminGeolocationParent:before {
+    font-family: Fontawesome;
+    content: "\f041";
+    display: inline-block;
+    font-size: 16px;
+    line-height: 1;
+}
